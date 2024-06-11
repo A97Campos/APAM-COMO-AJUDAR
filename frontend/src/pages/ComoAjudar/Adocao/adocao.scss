@@ -1,0 +1,14 @@
+.corDeFundo {
+  background-color: #E94250;
+  height: 100vh;
+}
+
+.adocao {
+  
+  &__titulo {
+    font-size: 55px;
+    font-weight: bold;
+    padding: 48px 0;
+    color: #F0BE8A;
+  }
+}

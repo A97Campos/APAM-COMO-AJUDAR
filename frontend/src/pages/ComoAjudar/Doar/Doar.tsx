@@ -83,13 +83,13 @@ function Doar() {
               </figure>
               <p>R$ 100</p>
             </a>
-            <a className="doar__pagContainer__link" href="">
+          </div>
+            <a className="doar__pagContainer__link teste" href="">
               <figure className="pigMoney">
                 <img src="/public/images/comoAjudar/pigMoney.png" alt="" />
               </figure>
               <p>Doação única</p>
             </a>
-          </div>
         </article>
       </section>
     </div>
