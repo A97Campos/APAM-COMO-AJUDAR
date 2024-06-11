@@ -5,16 +5,18 @@
     background: url(/images/comoAjudar/Hero.png) center no-repeat;
     background-size: cover;
     height: 100vh;
-    
+
     position: relative;
-    
+
+    padding-top: 100px;
+
     &__container {
         position: absolute;
         top: 100%;
         left: 50%;
         transform: translate(-50%, -100%);
         width: 1000px;
-        text-align: center;        
+        text-align: center;
         padding-bottom: 32px;
 
         &__titulo {
@@ -46,5 +48,5 @@
             background-color: #F0BE8A;
         }
     }
-    
+
 }
