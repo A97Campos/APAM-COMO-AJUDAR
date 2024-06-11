@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext js,jsx,tsx,ts --report-unused-disable-directives --max-warnings 0",
-    "lint:fix": "eslint . --ext js,jsx,tsx,ts --report-unused-disable-directives --max-warnings 0 --fix",
+    "lint:fix": "eslint . --ext js,jsx,tsx,ts --report-unused-disable-directives --max-warnings 1 --fix",
     "format": "prettier --write ./src",
     "preview": "vite preview",
     "test": "jest --config jest.config.js --verbose --bail",

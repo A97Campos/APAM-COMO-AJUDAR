@@ -1,0 +1,116 @@
+.fundo {
+    height: 100vh;
+    background-color: #F1D9CF;
+}
+
+.doar {
+    padding-top: 48px;
+    display: grid;
+    grid-template-columns: 490px 490px;
+    gap: 20px;
+
+    &__titulo {
+        color: #ED3E54;
+        font-size: 40px;
+        padding-bottom: 32px;
+    }
+
+    &__text {
+        max-width: 410px;
+        font-size: 16px;
+        padding-bottom: 24px;
+
+        &--cor {
+            color: #E94250;
+        }
+    }
+
+    &__pets {
+
+        &--img {
+            max-width: 280px;
+            padding-right: 10px;
+        }
+
+        .doar1, .doar2 {
+            height: 130px;
+        }
+
+        .doar3, .doar4 {
+            height: 180px;
+            padding-top: 8px;
+        }
+
+        .doar4 {
+            width: 268px;
+        }
+    }
+
+    &__bbContainer {
+        display: grid;
+        grid-template-columns: 135px auto;
+
+        &--fundo {
+            background-color: #E94250;
+            border-radius: 10px 0 0 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .info {
+            background-color: #efcdbe92;
+            padding-left: 8px;
+            color: #E94250;
+            font-size: 18px;
+
+            &__bbText {
+                font-weight: bold;
+                font-size: 20px;
+                padding: 8px 0;
+                
+            }
+
+            &__pix {
+                padding: 8px 0;
+                display: flex;
+                align-items: center;
+
+                img {
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+
+    &__tituloPag {
+        color: #ED3E54;
+        font-size: 30px;
+        margin: 16px 0;
+    }
+
+    &__pagContainer {
+        display: grid;
+        grid-template-columns: auto auto;  
+        gap: 8px;     
+
+        &__link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            background-color: #E94250;
+            color: #F1D9CF;
+            padding: 8px;
+            width: 240px;
+            border-radius: 8px;
+
+            .pigMoney {
+                background-color: #F1D9CF;
+                border-radius: 50%;
+                padding: 5px;
+                margin-right: 8px;
+            }
+        }
+    }
+}

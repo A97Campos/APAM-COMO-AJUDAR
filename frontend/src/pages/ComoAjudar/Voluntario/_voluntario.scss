@@ -1,0 +1,56 @@
+.corFundo {
+    background-color: #2F7475;
+    
+}
+
+.voluntario {
+    display: grid;
+    grid-template-columns: 580px  400px;
+    gap: 20px;
+    height: 100vh;
+
+    &__container {
+
+        &__titulo {
+            color: #FF7665;
+            font-size: 65px;
+            margin: 48px 0;
+        }
+
+        &__text {
+            color: #ffffff;
+            font-size: 24px;
+            margin-bottom: 24px;
+        }
+
+    }
+
+    &--btn {
+        background-color: #3697B2;
+        border: none;
+        cursor: pointer;
+        margin-top: 24px;
+    }
+
+    figure {
+        position: relative;
+    }
+
+    &--text {
+        font-family: "Alexandria", sans-serif;
+        font-size: 130px;
+        font-size: bold;
+        text-transform: uppercase;
+        color: #E94250;
+        position: absolute;
+        top: 57%;
+        right: 0%;
+    }
+
+    &--imagem {
+        width: 100%;
+        position: absolute;
+        top: 68%;
+        right: 0%;
+    }
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+
+.hero {
+    background: url(/images/comoAjudar/Hero.png) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    position: relative;
+    
+    &__container {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+        width: 1000px;
+        text-align: center;        
+        padding-bottom: 32px;
+
+        &__titulo {
+            color: #F2DFD7;
+            font-size: 88px;
+            text-align: center;
+            font-family: "Fraunces", serif;
+        }
+
+        &__text {
+            color: #E94250;
+            font-family: "Alexandria", sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            text-transform: uppercase;
+            margin: 16px 0;
+        }
+
+        .btn--voluntario {
+            background-color: #FF7665;
+        }
+
+        .btn--doacao {
+            background-color: #1F5B5C;
+            margin: 0 36px;
+        }
+
+        .btn--adocao {
+            background-color: #F0BE8A;
+        }
+    }
+    
+}
